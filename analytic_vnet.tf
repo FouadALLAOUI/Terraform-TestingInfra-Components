@@ -1,3 +1,4 @@
+/*
 resource "azurerm_virtual_network" "dataanalytics_vnet" {
   name                = "DataAnalytycs-02-vNet"
   address_space       = ["172.28.0.0/23"]
@@ -31,7 +32,8 @@ resource "azurerm_virtual_network_peering" "analyticsnet_to_secnet" {
 
 
 
-
+/*
+*/
 
 
 

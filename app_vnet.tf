@@ -1,3 +1,4 @@
+/*
 resource "azurerm_virtual_network" "app_vnet" {
   name                = "app_vnet"
   address_space       = ["172.27.0.0/23"]
@@ -39,7 +40,8 @@ resource "azurerm_virtual_network_peering" "app_to_secnet" {
 
 
 
-
+/*
+*/
 
 
 

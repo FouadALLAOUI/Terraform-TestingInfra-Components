@@ -1,3 +1,4 @@
+/*
 resource "azurerm_virtual_network" "front_vnet" {
   name                = var.vnet_name
   address_space       = ["172.26.0.0/24"]
@@ -38,7 +39,8 @@ resource "azurerm_virtual_network_peering" "frontnet_to_secnet" {
 
 
 
-
+/*
+*/
 
 
 
